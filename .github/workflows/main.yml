@@ -14,6 +14,6 @@ jobs:
     steps:
     - name: Increment version
       id: version
-      uses: perfectpattern/IncrementGithubAction@master
+      uses: perfectpattern/IncrementGithubAction@enable_error_catching
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
